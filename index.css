@@ -1,3 +1,10 @@
 .container {
   border: 1px solid red;
+  background-color: #cc24df;
+}
+
+h1 {
+  font-family: Impact;
+  font-size: 22px;
+  color: #ffffff;
 }
