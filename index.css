@@ -1,12 +1,90 @@
-.container {
-  border: 1px solid red;
-  background-color: #cc24df;
-  margin: 0;
+.menu {
+    display: flex;
+    flex-direction: row;
+    background-color:#8b94b4;
+    padding: 3px 10px;
+
 }
 
-h1 {
-  font-family: Lucida Bright;
-  font-size: 22px;
-  font-weight: 700;
-  color: #ffffff;
+.main-logo {
+    font-size: 27px;
+    font-family: helvetica;
+    padding: 15px 16px;
+    color: #fbf5ea;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 18px 22px;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #fbf5ea;
+    text-align: center;
+    padding: 21px 16px;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+body {
+margin: 0;
+}
+
+.container {
+    background-color: #fbf5ea;
+    margin: 0;
+  }
+  
+  
+  .center {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    align-content: center;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .header-image {
+    width: 50%;
+    object-fit: cover;
+    
+  }
+
+  .hero-txt {
+    display: grid;
+    margin-right: 0;
+    width: 50%;
+    align-self: auto;
+    }
+
+    .text-block {
+        padding: 15px;
+        align-self: flex-start;
+        text-align: left;
+    }
+
+  .text-block h1 {
+    font-family: arial;
+    font-size: 80px;
+    font-weight: 800;
+    color: #8894b7;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: -4px;
+    line-height: 83px;
+  }
+
+  .text-block p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 55px;
+  }
